@@ -3,15 +3,15 @@ Scripts used in "An introgressed gene causes meiotic drive in Neurospora sitophi
 
 Reference: https://www.biorxiv.org/content/10.1101/2020.01.29.923946v1
 
-## variantTab2fasta2.py
+## variantTab2fasta.py
 
 This script will convert a GATK VariantsToTable file to an aligned fasta.
 
 Usage:
 
 ```
-variantTab2fasta2.py --help
-usage: variantTab2fasta2.py [-h] [-g GENOME] [-n] [-c CONTIGS] [-r REFERENCE]
+variantTab2fasta.py --help
+usage: variantTab2fasta.py [-h] [-g GENOME] [-n] [-c CONTIGS] [-r REFERENCE]
                             [-o OUTPUT] [-s SPLITTER]
                             filename
 
